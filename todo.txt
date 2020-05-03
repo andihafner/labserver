@@ -1,3 +1,4 @@
 install mc
 install bash-completion
+install git
 
