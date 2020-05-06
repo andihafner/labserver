@@ -20,3 +20,9 @@ alias gs='git status'
 alias gc='git commit'
 alias gb='git branch'
 
+# show summary
+echo "********** bash options: **********"
+set -o
+echo "********** aliases: **********"
+alias
+echo "********** ah.bash: environment set. **********"
