@@ -12,7 +12,8 @@ alias lla='ls -lah'
 alias p='pwd'
 alias ah.os.info='hostnamectl'
 alias v='vim'
-alias mc='. /usr/lib/mc/mc-wrapper.sh'
+# alias mc='. /usr/libexec/mc/mc-wrapper.sh' # centos version
+alias mc='. /usr/lib/mc/mc-wrapper.sh' # ubuntu version
 # (drops you into the choosen directory after leaving mc)
 # --> https://stackoverflow.com/questions/39017391/how-to-make-midnight-commander-exit-to-its-current-directory
 alias gl='git log --oneline --all --graph'
