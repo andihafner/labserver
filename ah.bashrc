@@ -6,6 +6,7 @@ set -o vi
 export PROMPT_DIRTRIM=1
 
 
+alias a='alias'
 alias c='clear'
 alias ..='cd ..'
 alias lla='ls -lah'
