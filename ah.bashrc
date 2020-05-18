@@ -23,7 +23,7 @@ alias gb='git branch'
 
 # show summary
 echo "********** bash options: **********"
-set -o
+set -o | grep on$
 echo "********** aliases: **********"
 alias
 echo "********** ah.bash: environment set. **********"
