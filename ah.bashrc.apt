@@ -5,6 +5,7 @@ set -o vi
 # show only current directory at bash prompt
 export PROMPT_DIRTRIM=1
 
+source <(npm completion)
 
 alias a='alias'
 alias c='clear'
