@@ -5,7 +5,9 @@ set -o vi
 # show only current directory at bash prompt
 export PROMPT_DIRTRIM=1
 
-source <(npm completion)
+# loading completion for npm
+# --> https://github.com/nvm-sh/nvm/issues/427
+source $(echo $NVM_BIN)/../lib/node_modules/npm/lib/utils/completion.sh
 
 alias a='alias'
 alias c='clear'
